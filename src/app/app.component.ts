@@ -9,4 +9,6 @@ export class AppComponent {
   tittle = 'Pipes working';
   nombre = 'Sergio';
   arreglo = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ];
+  PI = Math.PI;
+  numero = 0.243;
 }
