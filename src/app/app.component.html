@@ -53,20 +53,50 @@
         <th scope="row">6</th>
         <td> {{PI}} </td>
         <td> number:'1.0-2' </td>
-        <td> {{PI | number:'1.0-2' }} </td>
+        <td> {{PI | number:'1.0-3' }} </td>
       </tr>
       <tr>
-          <th scope="row">7</th>
-          <td> {{numero}} </td>
-          <td> percent </td>
-          <td> {{numero | percent }} </td>
+        <th scope="row">7</th>
+        <td> {{numero}} </td>
+        <td> percent </td>
+        <td> {{numero | percent }} </td>
+      </tr>
+      <tr>
+        <th scope="row">7</th>
+        <td> {{numero}} </td>
+        <td> percent:'1.0-2' </td>
+        <td> {{numero | percent:'2.1-2' }} </td>
+      </tr>
+      <tr>
+        <th scope="row">8</th>
+        <td> {{moneda}} </td>
+        <td> salario:'1.0-2' </td>
+        <td> {{moneda | currency }} </td>
+      </tr>
+      <tr>
+        <th scope="row">8</th>
+        <td> {{moneda}} </td>
+        <td> Currency:'EUR' </td>
+        <td> {{moneda | currency:'EUR'  }} </td>
+      </tr>
+      <tr>
+          <th scope="row">8</th>
+          <td> {{moneda}} </td>
+          <td> Currency:'EUR' </td>
+          <td> {{moneda | currency:'EUR':true  }} </td>
         </tr>
         <tr>
-            <th scope="row">7</th>
-            <td> {{numero}} </td>
-            <td> percent:'1.0-2' </td>
-            <td> {{numero | percent:'2.1-2' }} </td>
+            <th scope="row">8</th>
+            <td> {{moneda}} </td>
+            <td> Currency:'EUR':true:'4.0-0' </td>
+            <td> {{moneda | currency:'EUR':true:'4.0-0'}} </td>
           </tr>
+          <tr>
+              <th scope="row">8</th>
+              <td> {{moneda}} </td>
+              <td> number:'.2-2' </td>
+              <td> {{moneda | number:'.2-2'}} </td>
+            </tr>
     </tbody>
 
   </table>
