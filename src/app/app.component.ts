@@ -24,4 +24,8 @@ export class AppComponent {
 
   };
 
+  varlorDePromesa = new Promise(( resolve, reject ) => {
+    setTimeout(() => resolve('Legó la data'), 3500);
+  });
+
 }

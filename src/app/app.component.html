@@ -77,26 +77,32 @@
         <th scope="row">8</th>
         <td> {{moneda}} </td>
         <td> Currency:'EUR' </td>
-        <td> {{moneda | currency:'EUR'  }} </td>
+        <td> {{moneda | currency:'EUR' }} </td>
       </tr>
       <tr>
-          <th scope="row">8</th>
-          <td> {{moneda}} </td>
-          <td> Currency:'EUR' </td>
-          <td> {{moneda | currency:'EUR':true  }} </td>
-        </tr>
-        <tr>
-            <th scope="row">8</th>
-            <td> {{moneda}} </td>
-            <td> Currency:'EUR':true:'4.0-0' </td>
-            <td> {{moneda | currency:'EUR':true:'4.0-0'}} </td>
-          </tr>
-          <tr>
-              <th scope="row">8</th>
-              <td> {{moneda}} </td>
-              <td> number:'.2-2' </td>
-              <td> {{moneda | number:'.2-2'}} </td>
-            </tr>
+        <th scope="row">8</th>
+        <td> {{moneda}} </td>
+        <td> Currency:'EUR' </td>
+        <td> {{moneda | currency:'EUR':true }} </td>
+      </tr>
+      <tr>
+        <th scope="row">8</th>
+        <td> {{moneda}} </td>
+        <td> Currency:'EUR':true:'4.0-0' </td>
+        <td> {{moneda | currency:'EUR':true:'4.0-0'}} </td>
+      </tr>
+      <tr>
+        <th scope="row">8</th>
+        <td> {{moneda}} </td>
+        <td> number:'.2-2' </td>
+        <td> {{moneda | number:'.2-2'}} </td>
+      </tr>
+      <tr>
+        <th scope="row">8</th>
+        <td> {{ varlorDePromesa }} </td>
+        <td> async </td>
+        <td> {{ varlorDePromesa | async }} </td>
+      </tr>
     </tbody>
 
   </table>
@@ -111,8 +117,9 @@
     {{heroe | json}}
   </pre>
 
-  
-  <hr><hr>
+
+  <hr>
+  <hr>
 
 
 
