@@ -12,5 +12,16 @@ export class AppComponent {
   PI = Math.PI;
   numero = 0.243;
   moneda = 1234.;
+  heroe = {
+    nombre: 'Logan',
+    clace: 'Wolverine',
+    edad: '500',
+    direccion: {
+      casa: '19',
+      calle: '26'
+
+    }
+
+  };
 
 }
